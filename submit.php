@@ -1,5 +1,4 @@
 <?php 
-	//require_once("chkcat.php");
 	require_once("dbconn.php");
 	require_once("include.php"); 
 	require_once 'ckeckcat.php';
@@ -29,16 +28,9 @@
 		<?php include_bar();?>
 		<div id="body_rest_free">
 
-
-
-
-
-
 <?php 
 if($_POST)
 {
-	//print_r($_POST);
-	//print_r($_POST);
 	extract($_POST);
 	$dell_no_found=1; // assuming deligate card no is present in database
 	$duplicate_found=0; // assuming no duplicate team enrty is present in database
