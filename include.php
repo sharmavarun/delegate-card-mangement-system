@@ -55,7 +55,7 @@ function include_tinymcelib()
 function footer()
 {
 	echo '<div class="revels_footer"><br/>
-		For Any Queries, Conact:&nbsp;&nbsp;&nbsp;Aditya Arun:9886210911&nbsp;&nbsp;&nbsp;Varun Sharma:9535270244&nbsp;&nbsp;&nbsp;Dinesh Dhakan:8867655854
+		For Any Queries, Conact:&nbsp;&nbsp;&nbsp;Contact Person Name : Contact Number
 		</div>';
 }
 ?>
