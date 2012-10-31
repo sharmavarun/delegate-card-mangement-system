@@ -63,11 +63,8 @@ while($row = mysqli_fetch_assoc($res))
 	extract($row);
 	$q="SELECT count(distinct `team_id`) c FROM `tblEventReg` WHERE `team_id`!=0 and `event_id` = $event_id";
 	$r=mysqli_query($conn,$q) or die("Unable to get total teams registered");
-	//print_r($r);
 	$ro=mysqli_fetch_assoc($r);
 	extract($ro);
-	//$no=$r;
-	//echo "<br><a href='viewevent.php?evid='.$event_id.''><span class='homespan'>".$event_name."<br>Event Head :  Co-Event Head : </span></a>";
 	echo "<br><a href='home.php?event_details=$event_id'<span class='homespan'><strong>".$event_name."</strong><br><br/>No. Of Teams Registered : ".$c." &nbsp;<br>Maximum Team Members Allowed:".$event_max_team_number."</span></a>";
 }
 		}
