@@ -36,8 +36,6 @@ CREATE TABLE IF NOT EXISTS `tblCategories` (
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=26 ;
 
 --
--- Dumping data for table `tblCategories`
---
 
 INSERT INTO `tblCategories` (`cat_id`, `cat_name`, `cat_type`, `cat_head_id`, `date_of_creation`) VALUES
 (1, 'System Admin', 0, 900, '2012-01-13 07:25:52'),
@@ -85,7 +83,6 @@ CREATE TABLE IF NOT EXISTS `tblEventHeads` (
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=21 ;
 
 --
--- Dumping data for table `tblEventHeads`
 --
 
 -- --------------------------------------------------------
@@ -109,7 +106,7 @@ CREATE TABLE IF NOT EXISTS `tblEvents` (
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=27 ;
 
 --
--- Dumping data for table `tblEvents`
+--
 --
 
 --
@@ -129,7 +126,7 @@ CREATE TABLE IF NOT EXISTS `tblOrganiser` (
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=4 ;
 
 --
--- Dumping data for table `tblOrganiser`
+--
 --
 
 -- --------------------------------------------------------
@@ -156,7 +153,7 @@ CREATE TABLE IF NOT EXISTS `tblPersonnel` (
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=58 ;
 
 --
--- Dumping data for table `tblPersonnel`
+--
 --
 
 -- --------------------------------------------------------
@@ -177,7 +174,7 @@ CREATE TABLE IF NOT EXISTS `tblResult` (
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
 
 --
--- Dumping data for table `tblResult`
+--
 --
 
 -- --------------------------------------------------------
