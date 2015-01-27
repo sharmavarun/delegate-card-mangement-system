@@ -1,6 +1,9 @@
-===============================
-Delegate Card Management System
-===============================
+=========
+delsystem
+=========
+---------------------------------
+A Delegate Card Management System
+---------------------------------
 Wrote it as a replacement to our college's old technical and cultural fest delegate card management system.
 Its simple to implement, generic system. Logo and images can be replaced by replacing the old images with new images of same name.
 The end user of this software is the help desk/registration volunteer who has the autority to add new teams to the event.
