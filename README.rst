@@ -17,3 +17,9 @@ A Delegate Card Management System
 Installation
 ------------
 pip install delsystem
+
+-------------
+Usage
+-------------
+delsystem createproject myproject
+delsystem start myproject
